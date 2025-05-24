@@ -5,9 +5,9 @@ namespace Lab5MedicalApp.API.Models.Domain;
 
 public class PerscriptionMedicament
 {
-    [Key][ForeignKey(nameof(Medicament))]
+    [ForeignKey(nameof(Medicament))]
     public int IdMedicament { get; set; }
-    [Key][ForeignKey(nameof(Perscription))]
+    [ForeignKey(nameof(Perscription))]
     public int IdPerscription { get; set; }
     
     public int? Dose { get; set; }
