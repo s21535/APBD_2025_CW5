@@ -13,4 +13,7 @@ public class PerscriptionMedicament
     public int? Dose { get; set; }
     [MaxLength(100)]
     public string Details { get; set; }
+    
+    public Medicament Medicament { get; set; }
+    public Perscription Perscription { get; set; }
 }
