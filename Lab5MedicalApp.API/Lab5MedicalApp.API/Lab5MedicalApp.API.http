@@ -1,0 +1,6 @@
+@Lab5MedicalApp.API_HostAddress = http://localhost:5281
+
+GET {{Lab5MedicalApp.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
